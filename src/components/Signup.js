@@ -40,7 +40,7 @@ export default function Signup(props) {
                         <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="password" className="form-label">Password</label>
+                        <label htmlFor="password" className="form-label">Password(mininum 8 characters)</label>
                         <input type="password" className="form-control" value={credentials.password} onChange={onChange} name="password" id="password" required />
                     </div>
                     <div className="mb-3">
